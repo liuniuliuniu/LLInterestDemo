@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "LLInterestTabBarController.h"
+
 
 @interface AppDelegate ()
 
@@ -16,7 +18,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    _window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    
+    LLInterestTabBarController *tabbar = [[LLInterestTabBarController alloc]init];
+    
+    _window.rootViewController = tabbar;
+    
+    [_window makeKeyWindow];
+    
+
     return YES;
 }
 
