@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1E7E897764679A3A057F1AAEFF6774468A48639D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6FC4832245A6A8E50F2A782F20A8B58A46BD1FEB" : 9223372036854775807,
+    "1E7E897764679A3A057F1AAEFF6774468A48639D" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A4D3AA08-72E6-4984-BC55-EDF1EC4EBD03",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6FC4832245A6A8E50F2A782F20A8B58A46BD1FEB" : "LLInterestDemo\/LLInterestDemo\/LLInterestDemo\/Masonry\/",
+    "1E7E897764679A3A057F1AAEFF6774468A48639D" : "LLInterestDemo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LLInterestDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LLInterestDemo\/LLInterestDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/liuniuliuniu\/LLInterestDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1E7E897764679A3A057F1AAEFF6774468A48639D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/SnapKit\/Masonry.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6FC4832245A6A8E50F2A782F20A8B58A46BD1FEB"
+    }
+  ]
+}
