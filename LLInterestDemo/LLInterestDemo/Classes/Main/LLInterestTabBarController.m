@@ -35,6 +35,12 @@
     
 }
 
+- (UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
+}
+
+
 - (UIViewController *)loadClassName:(NSString *)clsName andTitle:(NSString *)title andImageName:(NSString *)imgName
 {
     Class cls = NSClassFromString(clsName);
@@ -47,13 +53,14 @@
     //设置标题
     vc.title = title;
     
-    
-    
     vc.tabBarItem.image = [UIImage imageNamed:imgName];
     vc.tabBarItem.selectedImage = [UIImage imageNamed:[imgName stringByAppendingString:@"_Sel"]];
     
     
     UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:vc];
+    nav.navigationBar.barTintColor = [UIColor greenColor];
+    
+    [nav.navigationBar setBarStyle:UIBarStyleBlack];
     
     return nav;
     

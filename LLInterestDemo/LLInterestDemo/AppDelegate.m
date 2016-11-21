@@ -27,6 +27,12 @@
     
     [_window makeKeyWindow];
     
+    
+    // 设置状态颜色
+    NSObject *status = [[UIApplication sharedApplication] valueForKey:@"_statusBar"];
+    
+    [status setValue:[UIColor redColor] forKey:@"backgroundColor"];
+    
 
     return YES;
 }

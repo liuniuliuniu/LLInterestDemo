@@ -29,6 +29,9 @@
 		8CDD52821DE313620065992E /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDD52751DE313620065992E /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		8CDD52831DE313620065992E /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDD52771DE313620065992E /* View+MASAdditions.m */; };
 		8CDD52841DE313620065992E /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDD527A1DE313620065992E /* ViewController+MASAdditions.m */; };
+		8CDD52871DE316DE0065992E /* LLCateoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDD52861DE316DE0065992E /* LLCateoryCell.m */; };
+		8CDD528A1DE31CB10065992E /* LLFoodCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDD52891DE31CB10065992E /* LLFoodCell.m */; };
+		8CDD528D1DE321820065992E /* LLFoodHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDD528C1DE321820065992E /* LLFoodHeaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +81,12 @@
 		8CDD52781DE313620065992E /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		8CDD52791DE313620065992E /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		8CDD527A1DE313620065992E /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		8CDD52851DE316DE0065992E /* LLCateoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLCateoryCell.h; sourceTree = "<group>"; };
+		8CDD52861DE316DE0065992E /* LLCateoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLCateoryCell.m; sourceTree = "<group>"; };
+		8CDD52881DE31CB10065992E /* LLFoodCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLFoodCell.h; sourceTree = "<group>"; };
+		8CDD52891DE31CB10065992E /* LLFoodCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLFoodCell.m; sourceTree = "<group>"; };
+		8CDD528B1DE321820065992E /* LLFoodHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLFoodHeaderView.h; sourceTree = "<group>"; };
+		8CDD528C1DE321820065992E /* LLFoodHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLFoodHeaderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +187,12 @@
 				8CDD504A1DE309230065992E /* LLPayViewController.h */,
 				8CDD504B1DE309230065992E /* LLPayViewController.m */,
 				8CDD50591DE3117F0065992E /* MessageSource.json */,
+				8CDD52851DE316DE0065992E /* LLCateoryCell.h */,
+				8CDD52861DE316DE0065992E /* LLCateoryCell.m */,
+				8CDD52881DE31CB10065992E /* LLFoodCell.h */,
+				8CDD52891DE31CB10065992E /* LLFoodCell.m */,
+				8CDD528B1DE321820065992E /* LLFoodHeaderView.h */,
+				8CDD528C1DE321820065992E /* LLFoodHeaderView.m */,
 			);
 			path = Pay;
 			sourceTree = "<group>";
@@ -311,8 +326,11 @@
 				8CDD52811DE313620065992E /* NSArray+MASAdditions.m in Sources */,
 				8CDD52821DE313620065992E /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				8CDD502F1DE306220065992E /* AppDelegate.m in Sources */,
+				8CDD528D1DE321820065992E /* LLFoodHeaderView.m in Sources */,
 				8CDD504F1DE309370065992E /* LLShopViewController.m in Sources */,
+				8CDD52871DE316DE0065992E /* LLCateoryCell.m in Sources */,
 				8CDD502C1DE306220065992E /* main.m in Sources */,
+				8CDD528A1DE31CB10065992E /* LLFoodCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
