@@ -48,7 +48,6 @@
     self.lab = lab;
 }
 
-
 - (void)setIndexP:(NSIndexPath* )indexP{
     _indexP = indexP;
     

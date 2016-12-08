@@ -10,8 +10,6 @@
 
 @interface LLFoodHeaderView : UITableViewHeaderFooterView
 
-
 @property (nonatomic, assign)NSInteger section;
-
 
 @end

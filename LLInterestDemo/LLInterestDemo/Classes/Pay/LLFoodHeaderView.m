@@ -16,10 +16,7 @@
  */
 @property (nonatomic, weak) UILabel *lab;
 
-
-
 @end
-
 
 @implementation LLFoodHeaderView
 
@@ -38,24 +35,16 @@
 {
     
     UILabel *lab = [[UILabel alloc]init];
-    
     [self.contentView addSubview:lab];
-    
     [lab mas_makeConstraints:^(MASConstraintMaker *make) {
-        
         make.left.equalTo(self.contentView).offset(20);
         make.top.bottom.right.equalTo(self.contentView);
-        
     }];
-    
-    
     self.lab = lab;
 }
 
 - (void)setSection:(NSInteger)section{
-    
     _section = section;
-    
     self.lab.text = [NSString stringWithFormat:@"---我是%zd组---",section];
 
 }

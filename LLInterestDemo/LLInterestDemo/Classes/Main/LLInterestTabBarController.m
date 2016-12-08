@@ -28,11 +28,7 @@
     [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor orangeColor], NSForegroundColorAttributeName, [UIFont systemFontOfSize:12],NSFontAttributeName,nil] forState:UIControlStateSelected];
     
     [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor blueColor], NSForegroundColorAttributeName, [UIFont systemFontOfSize:12],NSFontAttributeName,nil] forState:UIControlStateNormal];
-    
-    
     self.tabBar.backgroundImage = [UIImage imageNamed:@"tabBarBg"];
-    
-    
 }
 
 - (UIStatusBarStyle)preferredStatusBarStyle
@@ -46,7 +42,6 @@
     Class cls = NSClassFromString(clsName);
     
     UIViewController *vc = [[cls alloc]init];
-    
     //断言
     NSAssert([vc isKindOfClass:[UIViewController class]],@"%@控制器类名写错了",clsName);
     
@@ -56,10 +51,8 @@
     vc.tabBarItem.image = [UIImage imageNamed:imgName];
     vc.tabBarItem.selectedImage = [UIImage imageNamed:[imgName stringByAppendingString:@"_Sel"]];
     
-    
     UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:vc];
     nav.navigationBar.barTintColor = [UIColor greenColor];
-    
     [nav.navigationBar setBarStyle:UIBarStyleBlack];
     
     return nav;

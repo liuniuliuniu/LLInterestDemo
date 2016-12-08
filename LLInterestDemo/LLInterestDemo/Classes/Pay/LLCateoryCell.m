@@ -45,16 +45,11 @@
     
     lab.textAlignment = NSTextAlignmentCenter;
     
-
-    
-    
     [lab mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.equalTo(self.contentView);
     }];
-    
     self.lab = lab;
 }
-
 
 - (void)setIndexP:(NSIndexPath* )indexP{
     _indexP = indexP;
